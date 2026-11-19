@@ -46,3 +46,28 @@ idade = 16;
 eleitor = (idade < 18)   ?     "Menor de idade"  :   "Apto"
 
 */
+
+/* 
+
+function soma (valor1,valor2){
+      return valor1 + valor2
+}
+
+document.getElementById("texto").innerHTML=soma (10,10)
+
+*/
+
+const carro = {
+   marca: "ford",
+   modelo: "ka",
+   ano:2015,
+   placa:"ABC-1234",
+   buzina: function () {alert('Biiiiiiiiiiiiii')},
+   completo: function (){ 
+      return "A marca é "+this.marca+" e o modelo é: "+this.modelo
+   }
+
+
+}
+
+alert(carro.completo());
