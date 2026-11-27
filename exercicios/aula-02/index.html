@@ -1,18 +1,93 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Declarações</title>
     <style>
-        body{
-            text-align: center;
+        body {
+            section {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    max-width: 700px;
+    margin: 16px auto;
+    padding: 12px 16px;
+}
+
+#caixa {
+    background-color: #eee;
+    padding: 30px;
+}
         }
     </style>
 </head>
+
 <body>
+  <body>
+
     <h1>Aprendendo JS</h1>
-    <p id="test"></p>
+
+    <!-- Seção 5: if/else e switch -->
+    <section>
+        <h2>5. Condicionais</h2>
+
+        <input type="text" id="nome" placeholder="Digite um nome">
+        <button onclick="verificar()">Verificar nome [5.2]</button>
+        <br><br>
+
+        <input type="text" id="cor" placeholder="azul, vermelho ou amarelo">
+        <button onclick="verificaCor()">Mudar cor [5.3]</button>
+
+        <p id="teste"></p>
+    </section>
+
+    <!-- Seção 7: Funções -->
+    <section>
+        <h2>7. Funções</h2>
+        <p id="texto"></p>
+    </section>
+
+    <!-- Seção 8: DOM -->
+    <section>
+        <h2>8. DOM</h2>
+        <p id="dom"></p>
+
+        <select id="ano2">
+            <option selected disabled>Select criado com createElement [8.5]</option>
+        </select>
+    </section>
+
+    <!-- Seção 9: Eventos -->
+    <section>
+        <h2>9. Eventos</h2>
+        <button onclick="alert('Clicou!')">Clique (onclick no HTML)</button>
+        <button id="botao">Clique (addEventListener) [9.1]</button>
+        <br><br>
+
+        <div id="caixa">Passe o mouse aqui [9.2]</div>
+        <br>
+
+        <input type="text" id="campo" placeholder="Digite algo [9.3]">
+        <p id="saida"></p>
+    </section>
+
+    <!-- Seção 10: Arrays -->
+    <section>
+        <h2>10. Arrays</h2>
+        <p id="test"></p>
+    </section>
+
+    <!-- Seção 12: Laços de repetição / select de anos -->
+    <section>
+        <h2>12. Laços de repetição</h2>
+        <select name="" id="ano">
+            <option selected disabled>Selecione o ano</option>
+        </select>
+    </section>
+
     <script src="index.js"></script>
 </body>
+</body>
+
 </html>
